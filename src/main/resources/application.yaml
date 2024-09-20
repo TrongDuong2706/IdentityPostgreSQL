@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /identity/postGreSQL
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/identity_service
+    driverClassName: org.postgresql.Driver
+    password: root
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
