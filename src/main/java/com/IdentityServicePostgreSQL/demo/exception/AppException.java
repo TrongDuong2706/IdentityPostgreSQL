@@ -1,2 +1,4 @@
-package com.IdentityServicePostgreSQL.demo.exception;public class AppException {
+package com.IdentityServicePostgreSQL.demo.exception;
+
+public class AppException {
 }
